@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Counter from './counter';
 
+//convert to .tsx and fix errors
 class Counters extends Component {
    
     render() {
