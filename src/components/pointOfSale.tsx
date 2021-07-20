@@ -1,11 +1,24 @@
 import React, { Component } from 'react';
-
-
-
+import Order from '../components/order';
+import Menu from '../components/menu';
 class PointOfSale extends Component {
     state = {  }
     render() { 
-        return ( null );
+        return ( 
+            <div >
+                <main className="container-fluid">
+                    <div className="row">
+                        <div className="col-sm-8">
+                            <Menu />
+                        </div>
+                        <div className="col-sm-4">
+                            <Order />
+                        </div>
+                    </div>
+                   
+                </main>
+            </div>
+        );
     }
 }
 

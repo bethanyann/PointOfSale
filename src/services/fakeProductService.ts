@@ -29,9 +29,9 @@ const products = [
 
 export {};  //fix this later
 
-//   export function getProducts() {
-//     return products;
-//   }
+  export function getProducts() {
+    return products;
+  }
   
 //   export function getProducts(id:string) {
 //     return products.find(m => m._id === id);

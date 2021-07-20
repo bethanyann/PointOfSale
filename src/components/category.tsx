@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 class Category extends Component {
     state = {  }
+    _id: string | undefined;
+    name: string | undefined;
     render() { 
         return ( null );
     }
